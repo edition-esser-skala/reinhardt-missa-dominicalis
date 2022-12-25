@@ -1,0 +1,19 @@
+composer:
+  last: Reinhardt
+  first: Johann Georg
+title: Missa dominicalis
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2793-D-1
+    date: 1738
+    rism: 212006793
+    url: https://digital.slub-dresden.de/id42660797X
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G

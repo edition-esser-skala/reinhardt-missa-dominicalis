@@ -44,3 +44,57 @@ KyrieOboeI = {
     \tempoChristeB e1.~ \tempoChristeC 4 h gis h e2\fermata \markKyrieDaCapo \bar "||"
   }
 }
+
+GloriaOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    c8\fE c' h g c, c' h g
+    c, c' h d e d16 c g'8-! g-!
+    e16 c e c g'8-! g-! g16 a g e d8 g
+    e16 c e g a8-! g-! a-! g-! b-! a-!
+    b8. b16 a4 g16 c a c h g d' g, %5
+    a h g a fis8.\trill fis16 g8 d\ff c h
+    c r r4 r2
+    R1*3 %10
+    r2 c,8\fE c' h g
+    c, c' h g c, c' h g
+    c,16 g'' g g g g g g g g g a h g d' f,
+    e c e f g c, a' c, h8 r r4
+    r2 g'16 d h d g d h d %15
+    g g, c e g f e f d g g g g g f f
+    e c g e c4-\tenuto r2
+    R1*5 %22
+    r2 r4 r8 h''\f
+    c c r g g h g16 a g a
+    h8 d h,8. h16 c8 r r4 %25
+    r r8 h' c c r g
+    g g g16 a g a h g d h \tempoSuscipe g4-\tenuto
+    R1
+    \after 4. \tempoQuiSedes R
+    \after 2 \tempoMiserere R %30
+    \after 4 \tempoQuoniam R
+    R1*3
+    r4 r16 g'\fE g g g g g g g g g g %35
+    h8 d r16 c c c a a a a h h h h
+    c c c c c c h h c4-!\fermata \tempoQuoniamB g
+    fis8 a g4. fis16 e fis8.\trill fis16
+    g8 g, g g g2\fermata
+    \tempoAmen R1*2 %41
+    g4 h c8 a4 d8~
+    d h4 e c8 a d
+    h g d' c16 h c4 g
+    a h2 c8. h16 %45
+    a4 h c g~
+    g8 a4 h16 a h4. c8~
+    c a d2 e4
+    d e16 d e f d8 g, e'16 d e f
+    d8 g, e'16 d e f d4 d %50
+    e8 c4 a8 d4. c16 d
+    e8. d16 c8 a h4 d
+    e c4. \once \tieDashed d8~ d c16 d
+    e8 c e4 d2
+    e4. d16 c h4 c~ %55
+    \tempoAmenB c h c2\fermata \bar "|." %56 finis
+  }
+}

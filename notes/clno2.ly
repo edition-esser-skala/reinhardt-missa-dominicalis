@@ -35,3 +35,49 @@ KyrieClarinoII = {
     R\breve.\fermata \markKyrieDaCapo \bar "||" %39 finis
   }
 }
+
+GloriaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    c'8\fE e d4 c8 e d4
+    c8 g g4 e r8 d'
+    e e e d e g d4
+    e r r2
+    r e8 d d d %5
+    d4. d8 d4 r
+    R1*4 %10
+    r2 c8\fE e d4
+    c8 e d4 c8 g g4
+    e r c'8. c16 d4
+    e e8 d d4 d
+    r2 d8 d d d %15
+    e4 e8 e d2
+    c4 r r2
+    R1*5 %22
+    r2 r4 r8 d\fE
+    e e r e e d e4
+    d r r2 %25
+    r4 r8 d e e r e
+    e d e4 d \tempoSuscipe r
+    R1
+    \after 4. \tempoQuiSedes R
+    \after 2 \tempoMiserere R %30
+    \after 4 \tempoQuoniam R
+    R1*3
+    r4 r8 c16\fE d e8 d e8. e16 %35
+    d4 r8 e c d16 d d8 g,
+    g e g4 e \tempoQuoniamB r
+    R1
+    R\fermata
+    \tempoAmen R1*8 %47
+    r2 r8 d' e e
+    d d16 d e8 e d8. d16 e8 g
+    g g,16 g g8 g g4 r %50
+    R1*2
+    e4 g r d'
+    e8 c c e d2
+    c8 g e g g4 g %55
+    \tempoAmenB g2 g\fermata \bar "|." %56 finis
+  }
+}

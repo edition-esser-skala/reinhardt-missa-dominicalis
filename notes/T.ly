@@ -155,3 +155,186 @@ GloriaTenoreLyrics = \lyricmode {
   men, a -- _ _ %55
   _ men. %56 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    r4 \mvTr c\fE^\tuttiE c r
+    r8 c c c d d c h
+    c4( a) d r
+    \mvTr c\pE^\soloE d r8 e f e
+    d4 c r8 c h c %5
+    e d16 e c4 h r
+    R1*3
+    r2 r8 \mvTr c4\fE^\tuttiE d8 %10
+    c h r d c d c4
+    h8 h4 d8 c d16 d c8. c16
+    h4 r r2
+    R1*2 %15
+    r2 \mvTr d8.\pE^\soloE d16 d8 c
+    h4 h c8 e16([ d)] c8 h
+    a4. h16([ c)] d8 a d c
+    h16[ c d c] h[ c a h] c2~
+    c8 c16 c h8. c16 c4 r %20
+    r8 d d d d4 d8 d
+    c4 d8 d e4 f~
+    f8 f, r4 r8 d' b a16 f' \noBreak
+    e2 d\fermata \bar "||"
+    \tempoEtIncarnatus \mvTr b2\fE^\tuttiE b4 a \noBreak %25
+    e'4. e8 d4 d
+    c! c8 c d2
+    cis4 e8 e f4 d
+    h!4. h8 a4 a
+    b d c! c %30
+    c2. c4 \noBreak
+    a1\fermata \bar "||"
+    \tempoCrucifixus \mvTr c4\pE^\soloE c h e \noBreak
+    e8. d16 d8 d d[ g,] c4~
+    c8 h h4 cis8. cis16 cis8 cis %35
+    d2. cis4
+    r e4. d8 c h
+    c4 c8 h \tempoSepultus h4. a8 \noBreak
+    a1\fermata \bar "||"
+    \tempoEtResurrexit R1 \noBreak %40
+    r2 \mvTr h4\fE^\tuttiE h8 h
+    c4 c c c8 c
+    h4 h8 c a4 h8 d
+    d2 h4 r
+    r2 r8 h4 c8 %45
+    c4 h8 h c8. c16 c4
+    h h r2
+    R1
+    r2 \mvTr c8.\pE^\solo c16 a8 h
+    c c r4 c8 e a, h16([ c)] %50
+    d4 d8 c a4. a8
+    h h h4 r8 c d4
+    e8 f h,8.([\trill a16)] a4 r
+    R1
+    r2 r4 h8 h %55
+    c e cis8. cis16 d4 e8 f
+    e d4 c16[ h] c8 b4 a16[ g]
+    a8[ d] g,4 f a8 c
+    a4 h!8 h c8. c16 c4
+    \mvTr c8\fE^\tuttiE c c h c c c c %60
+    h4 a8 a a a a a
+    g g g h c4. c8
+    fis,4 g8 c h2
+    h4 r r2
+    R1*2 %66
+    r2 r4 \mvTr c\pE^\soloE
+    h8. c16 d4 g, a8 g
+    fis d d'4. c8 c d
+    h h a g fis4( g) %70
+    fis r r2
+    R1
+    r2 r4 \mvTr h\fE^\tuttiE
+    c c8 e c e d8. d16
+    e8 c4 c8 a4. d8 %75
+    g,2 g4-!\fermata \tempoEtResurrexitB c
+    d2 e8[ d] c4 \noBreak
+    d1\fermata \bar "||"
+    \tempoCredoAmen R1*6 %84
+    r2 g,4 h %85
+    c8 a4 d h e8~
+    e8[ c a d] h g c4
+    h8[ a16 h] c[ h c d] h8[ a16 h] c[ h c d]
+    h8[ a16 h] c[ h c d] h4 g~
+    g8[ a16 g] a4 h4. a16[ h] %90
+    c4 r g h
+    c2 a4 h
+    c4. d16[ c] d2
+    c4 e d e
+    \tempoCredoAmenB d2 e\fermata \bar "|." %95 finis
+
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  \xE Cre -- do,
+  cre -- do in u -- num, u -- num
+  De -- um. \x
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem %5
+  coe -- li et ter -- rae.
+
+  Et ex %10
+  Pa -- tre, ex Pa -- tre na --
+  tum an -- te o -- mni -- a sae -- cu --
+  la.
+
+  Ge -- ni -- tum non %16
+  fa -- ctum, con -- sub -- stan -- ti --
+  a -- lem Pa -- tri, per quem
+  o -- _ _
+  mni -- a fa -- cta sunt. %20
+  Et pro -- pter no -- stram sa --
+  lu -- tem de -- scen -- _
+  dit, de -- scen -- dit de
+  coe -- lis.
+  Et in -- car -- %25
+  na -- tus est de
+  Spi -- ri -- tu San --
+  cto ex Ma -- ri -- a
+  Vir -- gi -- ne, et
+  ho -- mo, ho -- mo %30
+  fa -- ctus
+  est.
+  Cru -- ci -- fi -- xus
+  e -- ti -- am pro no -- _
+  bis sub Pon -- ti -- o Pi -- %35
+  la -- to,
+  pas -- sus et se --
+  pul -- tus, se -- pul -- tus
+  est.
+
+  Et re -- sur -- %41
+  re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras,
+  se -- det, %45
+  se -- det ad dex -- te -- ram
+  Pa -- tris.
+
+  Iu -- di -- ca -- re
+  vi -- vos, iu -- di -- ca -- re %50
+  vi -- vos et mor -- tu --
+  os, non, non, non, non
+  e -- rit fi -- nis.
+
+  Qui ex %55
+  Pa -- tre Fi -- li -- o -- que pro --
+  ce -- _ _ _ _ _
+  _ _ dit. Qui cum
+  Pa -- tre et Fi -- li -- o
+  si -- mul ad -- o -- ra -- tur, ad -- o -- %60
+  ra -- tur et con -- glo -- ri -- fi --
+  ca -- tur: qui lo -- cu -- tus
+  est per Pro -- phe --
+  tas.
+
+  Con -- %67
+  fi -- te -- or u -- num ba --
+  ptis -- ma in re -- mis -- si --
+  o -- nem pec -- ca -- to -- %70
+  rum.
+
+  Et
+  vi -- tam ven -- tu -- ri sae -- cu --
+  li, a -- men, a -- _ %75
+  _ men, a --
+  _ _ _
+  men,
+
+  a -- _ %85
+  _ _ _ _ _
+  _ men, a --
+  _ _ _ _
+  _ _ men, a --
+  _ _ _ %90
+  men, a -- men,
+  a -- _ _
+  _ _ _
+  men, a -- _ _
+  _ men. %95 finis
+}

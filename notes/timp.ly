@@ -78,3 +78,54 @@ GloriaTimpani = {
     \tempoAmenB g2 c\fermata \bar "|." %56 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    r4 c\fE c r
+    r8 c c c g g c g
+    c c16 c c8 c g g16 g g8 g
+    c4 r r2
+    R1*5 %9
+    r2 r8 c4\fE g8 %10
+    c g r g c g c4
+    g r8 g c4 r8 c
+    g4 r8 g g4 r8 g
+    g4 r r2
+    R1*9 \noBreak %23
+    R1\fermata \bar "||"
+    \tempoEtIncarnatus R1*7 \noBreak %31
+    R1\fermata \bar "||"
+    \tempoCrucifixus R1*5 %37
+    \after 2 \tempoSepultus R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit c8\fE c c c c4 c \noBreak %40
+    g c8 c g4 r
+    c8 c c c c4 c
+    R1*3 %45
+    r8 c g g c4 r
+    r8 g g4 r2
+    R1*12 %59
+    c8\fE c c c c4 c %60
+    R1*3
+    r2 c8 c c c
+    c4 c r2 %65
+    R1*7 %72
+    r2 r4 g\fE
+    c c r8 c g8. g16
+    c8 c16 c c4 r r8 c %75
+    g c g4 \after 4 \tempoEtResurrexitB c2\fermata
+    c4-\critnote g c2 \noBreak
+    g1\fermata \bar "||"
+    \tempoCredoAmen R1*8 %85
+    r2 r8 g c c
+    g g16 g c8 c g g16 g c8 c
+    g g16 g c8 c g4 r
+    R1*2 %91
+    r2 r4 r8 g
+    c4 r r r8 g
+    c4 c g c
+    \tempoCredoAmenB g2 c\fermata \bar "|." %595 finis
+  }
+}

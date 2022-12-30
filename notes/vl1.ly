@@ -109,3 +109,93 @@ GloriaViolinoI = {
     \tempoAmenB g4. g8 g2\fermata \bar "|." %56 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    r4 e'-!\fE g-! r
+    r8 e g e d g g g
+    g4 fis g8 g,16 f? e8 d
+    c4 r8 h\pE e d c h
+    a h c16 e g c c,4 r8 g' %5
+    g4 fis16 a c fis <g h, d, g,>4 r8 g,
+    fis h e, c' h h, r a'
+    g e e' gis, e e'4 d8
+    e16 h gis h e,8 h' c d g, f16 e
+    d4.\trill c8 c g''4\fE h16 a %10
+    g8 h r h16 a g8 h g8. a16
+    h8 h4 d8 c h16 a g8. a16
+    h8 g r4 r8 d16 c h c d h
+    g4 r8 c\p c,4 r8 d'
+    g4 r8 d g,4 r8 c %15
+    a4 r8 fis g4 r8 d'
+    d4 r r2
+    R1*6 \noBreak %23
+    R1\fermata \bar "||"
+    \tempoEtIncarnatus d8\fE d d d c! c c c \noBreak %25
+    b b b b a8. a16 b8 b
+    g' g f f f e d d,
+    a' e' e e f f f f
+    f f e e e e f f
+    g! g f f g g a a %30
+    g g f f f f e e \noBreak
+    f c c c c2\fermata \bar "||"
+    \tempoCrucifixus R1*5 %37
+    \after 2 \tempoSepultus R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit g16\fE g c c e e c c g' c, e g e g, c e %40
+    f d g d e c e c d h' h h d d h h
+    c c, e g c c, e c g' e g e g e g e
+    g d g d g f e c d a d, c' h g' g g
+    g g g g fis fis fis fis g8 d4 h8
+    g16 a h c d e fis d g d d d d d e e %45
+    e c e c d g g g g e g e a d, a' d,
+    h d h d h g h d g8 g, r4
+    r8 e'(\pE d c) h16 e d e h8 a
+    gis16\f e gis h e h gis e c' e[\p a, e'] a d, h g'
+    e\f c, c c e e g g c\mp h a g f g f e %50
+    d8 g c, e f2
+    R1
+    r4 h8\mp h c8. c16 c8 d
+    e e4 dis8 e4. h8~
+    h a4 gis8 c8. h16 h8.\trill a16 %55
+    a4 r r2
+    R1*3
+    c16\f c e e g g h h c g g g g g g a %60
+    h h gis gis a a a a a a, a a a a a a
+    g'8 a h2 a4
+    h16 h, h h h' g g g fis h, h h fis' h, h h'
+    g e, fis g a h cis dis e c, d e f g a h
+    c8 e,16\pE d c8 e f c' e, f16 e %65
+    d8 f g g, c d16 e f8 c'
+    c, c' c, e'16 d c a h c d8 d,
+    g, g'16 a h8 g e g a, cis
+    d e fis g e4 fis
+    g8 g, c a d4 e %70
+    d8 d' d, d' c h16 a h8 a
+    g a h g fis d e fis
+    g g, c d g,16 h d g h\f d g h
+    c c, e g c c c c a a c c c c h h
+    c g g g g g g g a a a g f f f f %75
+    f8 e d8. c16 c4-!\fermata \tempoEtResurrexitB g'
+    fis8 a g4. fis16 e fis8. g16 \noBreak
+    g8 g, g g g2\fermata \bar "||"
+    \tempoCredoAmen R1*2 %80
+    g4 h c8 a4 d8~
+    d h4 e c8 a d
+    h g d' c16 h c4 g
+    a h2 c8. h16
+    a4 h c g~ %85
+    g8 a4 h16 a h4. c8~
+    c a d4 r8 g, e c
+    g' g e c g'8. f16 e8 c
+    g' d' e16 d e f d8 g, r d'
+    e8 c4 a8 d4. c16 d %90
+    e8. d16 c8 a h8. a16 g f e d
+    c8 g' c16 b a g f8 f' d8.(\trill c32 d)
+    e8 c e f16 e d8 g, g' f
+    e4.\trill d16 c h8-! d-! g4-!
+    \tempoCredoAmenB g4. g8 g2\fermata \bar "|." %95 finis
+  }
+}

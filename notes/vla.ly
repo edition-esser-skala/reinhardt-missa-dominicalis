@@ -90,7 +90,7 @@ GloriaViola = {
     g e a8. g16 fis4
     g f e2
     r4 f8 d4 g e8 %45
-    c4 g'8^\critnote f e4 d
+    c4 f8 d^\critnote e4 d
     e8 c f4 d g
     e a g2
     g4 g r8 g4 g8
@@ -101,5 +101,77 @@ GloriaViola = {
     g e4 a f8 d g
     g4 r8 g g f e c %55
     \tempoAmenB d4. d8 e2\fermata \bar "|." %56 finis
+  }
+}
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoCredo
+    r4 c'\fE c, r
+    r8 c' c c h h c g
+    a2 g8 g16 f! e8 d
+    c4 r r2
+    R1*5 %9
+    r2 r8 c'4\fE h8 %10
+    c g r h^\critnote c h c4
+    g8 g4 h8 c h c c,
+    g'4 r h r
+    g r r2
+    R1*9 \noBreak %23
+    R1\fermata \bar "||"
+    \tempoEtIncarnatus b8\fE b b b b b a a \noBreak %25
+    g g g g f f g g
+    c, c a' a f f g g
+    e e a, a' a a f f
+    h,! d d d cis a a a'
+    b b b b b b a f %30
+    e e a a g g g g \noBreak
+    f f f f f2\fermata \bar "||"
+    \tempoCrucifixus R1*5 %37
+    \after 2 \tempoSepultus R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit c'16\fE c, c c c c c c c g' c, c c c c c \noBreak %40
+    c c h h c c c c g' d d d d d d d
+    e e e e e e e e e e e e e e e e
+    d4 r8 a' fis4 r8 g
+    d16 d d d d d d d g,4 r
+    r2 r16 h' h h g g g g %45
+    g g g g g d d d e e e e f a a a
+    h g g g g g g g h4 r
+    R1
+    e,16\fE e e e e e e e e e[\p e e] f f d d
+    e\f c c c e e g g c4 r %50
+    R1*9 %59
+    e,16\f e g g g g g g c8 c, c' h16 a %60
+    gis8 e a16 g fis e dis8 h' dis, h'
+    e, e, e' d c2
+    h8 h' e, a, h h'16 a h8 h,
+    r16 e fis? g a h cis dis e c, d e f g a h
+    c4 r r2 %65
+    R1*7 %72
+    r2 r4 r16 g\fE g g
+    g g g g e e e e f f e f g g g g
+    g8 c16 h a8 g f f16 e d8 c %75
+    g' g g8. g16 g4-!\fermata \tempoEtResurrexitB c,
+    d4. d8 e d c8. d16 \noBreak
+    d1\fermata \bar "||"
+    \tempoCredoAmen c4 e f8 d4 g8~
+    g e4 a f8 d g %80
+    e c r g'16 f e8 f d4
+    g e a8. g16 fis4
+    g f e2
+    r4 f8 d4 g e8
+    c4 f8 d e4 d %85
+    e8 c f4 d g
+    e a g2
+    g4 g r8 g4 g8
+    g2 g4 r
+    e fis2 g4~ %90
+    g fis g r
+    c, e f8 d4 g8~
+    g e4 a f8 d g
+    g4 r8 g g f e c
+    \tempoCredoAmenB d4. d8 e2\fermata \bar "|." %95 finis
   }
 }

@@ -5,6 +5,7 @@
 \include "ees.ly"
 \include "ees_articulate.ly"
 
+rip = \markup \remark "Rip."
 markKyrieDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Kyrie da capo"
@@ -24,6 +25,14 @@ tempoGloria = \tempoMarkup "Allegro"
   tempoQuoniamB = \tempoMarkup "Adagio"
   tempoAmen = \tempoMarkup "Allegro assai"
   tempoAmenB = \tempoMarkup "Adagio"
+tempoCredo = \tempoMarkup "[Allegro]"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup "Andante un poco"
+  tempoSepultus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoEtResurrexitB = \tempoMarkup "Adagio"
+  tempoCredoAmen = \tempoMarkup "Allegro"
+  tempoCredoAmenB = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

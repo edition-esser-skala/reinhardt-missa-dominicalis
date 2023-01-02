@@ -255,3 +255,51 @@ SanctusViola = {
     g r\fermata \bar "|." %73 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    c'8\fE c c c c c h e,
+    e e e e e gis a a
+    d, d h' h g g a a
+    fis fis h, h' h h g g
+    cis, e e e dis h h h' %5
+    c c c c c c h g
+    fis fis h h a a a a \noBreak
+    g g g g g2\fermata \bar "||"
+    \tempoAgnusB R1*11 %19
+    \tempoAgnusC R1 \noBreak %20
+    R\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*3
+    r1 r2 c,\fE %25
+    d g4 f e f g2~
+    g4 c, f1 e4 d
+    c a a'1 g4 a
+    h4. a8 g2 f g~
+    g4 a h d g,2. fis8 g %30
+    a2 g1 fis2
+    g r d1
+    e2 g4 g fis2. d4
+    e fis g g, c2 cis
+    dis e1 dis2 %35
+    h4 g' fis2 e4 dis? cis? e
+    fis g a2. g4 g2
+    fis2 h1 a2~
+    a g1 fis2~
+    fis e dis h'4 a %40
+    gis a h2. e,4 a2~
+    a gis a1
+    g2 f e1
+    d c
+    d2 r g2. f8 e %45
+    f2 g a4 g2 g4
+    a2^\critnote d,4 g g2 a4 f~
+    f g8 f e2 d e4 c
+    g'\breve
+    g1 f2 g %50
+    \tempoDonaB f1 e\fermata \bar "|." %51 finis
+  }
+}

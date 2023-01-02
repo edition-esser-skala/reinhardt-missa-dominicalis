@@ -181,3 +181,40 @@ SanctusClarinoI = {
     c2 r\fermata \bar "|." %73 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr e'4.\fE-\critnote e8 d4 e8 e
+    e2 e4 r
+    r d e2
+    \pao fis g4 e
+    g2 \pao fis4 g %5
+    e2 d4 g
+    \pa d d8 d d4 d \pd \noBreak
+    d1\fermata \bar "||"
+    \tempoAgnusB R1*11 %19
+    \tempoAgnusC R1 \noBreak %20
+    R\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*7 %28
+    r2 g\fE f d4 d
+    e2 d4 d d c e2 %30
+    f g1 fis2
+    g1 r
+    R\breve*8 %40
+    e2. e4 e1
+    e2. e4 e2 f
+    d \pa c4 c \pd c2 r
+    d1 \pao c2 g'4 g
+    g1 f2 e %45
+    f g f e4 g
+    e fis g2 g f
+    d e d e
+    d e d1
+    c2 c c c %50
+    c c4 c c1\fermata \bar "|." %51 finis
+  }
+}

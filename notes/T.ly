@@ -443,3 +443,103 @@ SanctusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %73 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr c4.\fE^\tuttiE c8 c4 h8 e
+    e2 e4 r8 e
+    d4 d e2
+    fis4 fis8 fis g4 e
+    cis4. cis8 h4 h %5
+    r c8 e d4 d
+    d1 \noBreak
+    d4 r r2\fermata \bar "||"
+    \tempoAgnusB R1*7 %15
+    r4 \mvTr c8\pE^\soloE d e4 e8 d
+    c4 d8 c h[ e,] e'4~
+    e8 e d4 e2
+    f e
+    \tempoAgnusC d4. d8 c2 \noBreak %20
+    h r\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*2
+    \mvTr g1\fE^\tuttiE a2 d4( c)
+    h( c) d2. g,4 c2~ %25
+    c h c h
+    a1 g2 c~
+    c f4 e d c h a
+    g h e2 d1~
+    d4 c h c d e8[ f] g4 e %30
+    f e d2 e a,
+    d r d1
+    e2 g4 g fis2. d4
+    e fis g g, c2 cis
+    dis e1 dis2 %35
+    e dis cis cis?
+    h4 cis dis2 h c
+    h e c d
+    h c a h
+    g c1( h2) %40
+    h r a1
+    h2 e4( d) c( e) f( e)
+    d( h) c( d) e( d) c2~
+    c h c1
+    r r2 c %45
+    d1 f4 f e2~
+    e4 fis? g d e d c2
+    h c d c
+    h e d1
+    c a2 g %50
+    \tempoDonaB a1 g\fermata \bar "|." %51 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se -- re -- re
+  no --
+  bis.
+
+  A -- gnus De -- i, qui %16
+  tol -- lis pec -- ca -- _
+  ta mun -- di,
+  \xE pec -- ca --
+  _ ta mun -- %20
+  di: \x
+
+  Do -- na, do -- %24
+  na __ no -- bis pa -- %25
+  _ _ _
+  _ cem, pa --
+  _ _ _ _ _ _
+  _ _ _ _
+  _ _ _ _ _ _ _ %30
+  _ _ _ _ _
+  cem, do --
+  na, do -- na no -- bis
+  pa -- _ _ _ _ _
+  _ _ _ %35
+  _ _ cem, pa --
+  _ _ _ _ _
+  cem, do -- na no --
+  bis, do -- na no --
+  bis pa -- %40
+  cem, do --
+  na, do -- na, __ do --
+  na __ no -- bis __ pa --
+  _ cem,
+  do -- %45
+  na, do -- na no --
+  bis pa -- _ _ _ _
+  _ _ _ _
+  _ _ _
+  cem, do -- na %50
+  pa -- cem. %51 finis
+}

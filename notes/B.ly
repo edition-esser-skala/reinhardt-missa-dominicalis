@@ -423,3 +423,103 @@ SanctusBassoLyrics = \lyricmode {
   ex -- cel --
   sis. %73 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr c'4.\fE^\tuttiE c8 fis,4 gis8 gis
+    a2 e4 r8 a
+    fis4 g! c,2
+    h4 h'8 a g([ a16 h] c8[ h]
+    ais4.) ais8 h4 e, %5
+    a4.( g8 fis4) g
+    d1 \noBreak
+    g,4 r r2\fermata \bar "||"
+    \tempoAgnusB R1*7 %15
+    r4 \mvTr a'8\pE^\soloE g!16([ f)] e8([ d)] c g'
+    c4 h8 a gis4( a8) g
+    f2 e4 e'~
+    e d2 c4~
+    \tempoAgnusC c h a2 \noBreak %20
+    g r\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTr c,1\fE^\tuttiE d2 g4( f) \noBreak
+    e( f) g2. c,4 f2~
+    f e d4 e fis d
+    g2 f e d4 c %25
+    g'2 g, c4( d) e( c)
+    f1 c
+    f g
+    r2 c, d g4( f)
+    e( f) g2. c,4 c'2~ %30
+    c h a1
+    g r
+    R\breve*2
+    r2 e fis h4( a) %35
+    g( a) h2. e,4 a2~
+    a4 g fis h g2 a
+    h gis a fis
+    g e fis dis
+    e a h1 %40
+    e, a
+    e a,2 d
+    g,4( g' a h) c2 r
+    g1 a2 c4 c
+    h2. c4 d g, c2~ %45
+    c h a4 h c h
+    a a g f! e2 f
+    g\breve
+    g
+    c,2 e f e %50
+    \tempoDonaB f1 c\fermata \bar "|." %51 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- se -- re --
+  re, mi -- se -- %5
+  re -- re
+  no --
+  bis.
+
+  A -- gnus De -- i, qui %16
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec --
+  _ ca --
+  ta mun -- %20
+  di:
+  Do -- na, do --
+  na __ no -- bis pa --
+  _ _ _ _ _
+  _ _ _ _ _ %25
+  _ cem, do -- na __
+  no -- bis
+  pa -- cem,
+  do -- na, do --
+  na __ no -- bis pa -- %30
+  _ _
+  cem,
+
+  do -- na, do -- %35
+  na __ no -- bis pa --
+  _ _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ %40
+  cem, do --
+  na no -- bis
+  pa -- cem,
+  do -- na, do -- na
+  no -- _ _ _ _ %45
+  bis pa -- _ _ _
+  _ _ _ _ _ _
+  _
+  cem,
+  do -- na no -- bis %50
+  pa -- cem. %51 finis
+}

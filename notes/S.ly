@@ -480,10 +480,96 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %73 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr e'4.\fE^\tuttiE e8 d4 d8 d
+    c2 h8 h c4~
+    c h h( a)
+    h dis8 dis e2~
+    e dis4 e8 d %5
+    c2. h4
+    a h a2 \noBreak
+    h4 r r2\fermata \bar "||"
+    \tempoAgnusB \mvTr g4.\pE^\soloE g8 d'4 f,8 f \noBreak
+    f([ e)] e4 r e' %10
+    d8([ f16 e)] d8 c h([ a)] g([ d')]
+    e2 d4 r
+    r c8 b a8[ h?16 c] d8[ c]
+    h[ c16 d] e8[ d] c a d4~
+    d8 h c d c4_( h8[\trill a)] %15
+    a4 r r2
+    R1*4 \noBreak %20
+    R1\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %26
+    r1 \mvTr g\fE^\tuttiE
+    a2 d4( c) h( c) d2~
+    d4 g, c1 h2
+    e d4 c h c8[ d] e4 c %30
+    d2. g,4 c1~
+    c2 h r1
+    R\breve*3 %35
+    h1 cis2 fis4( e)
+    dis( e) fis2. h,4 e2~
+    e d1 c2~
+    c h1 a2~
+    a g fis d'!~ %40
+    d4 c h( d) c2. d4
+    e1. d4 c
+    h2 a g c
+    d g2. f4 e f
+    g d g2 f e %45
+    d1 c4 d e d
+    c2^\critnote h c d~
+    d e h c
+    d c1 h2
+    c c1 c2 %50
+    \tempoDonaB c1 c\fermata \bar "|." %51 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca --
+  ta mun --
+  di: Mi -- se -- re --
+  re, mi -- se -- %5
+  re -- _
+  _ re no --
+  bis.
+  A -- gnus De -- i, qui
+  tol -- lis, qui %10
+  tol -- lis pec -- ca -- ta __
+  mun -- di:
+  Mi -- se -- re -- _
+  _ _ _ re, mi --
+  se -- re -- re no -- %15
+  bis.
+
+  Do -- %27
+  na, do -- na __ no --
+  bis, do -- na
+  pa -- _ _ _ _ _ _ %30
+  _ _ _
+  cem,
+
+  do -- na, do -- %36
+  na __ no -- bis pa --
+  _ _
+  _ _
+  _ cem, do -- %40
+  _ na __ no -- bis
+  pa -- _ _
+  _ _ cem, do --
+  na, do -- na no -- _
+  _ _ _ _ bis %45
+  pa -- _ _ _ _
+  _ _ _ _
+  _ _ _
+  _ _ _
+  cem, do -- na %50
+  pa -- cem. %51 finis
+}

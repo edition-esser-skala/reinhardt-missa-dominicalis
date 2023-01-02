@@ -500,3 +500,101 @@ SanctusAltoLyrics = \lyricmode {
   ex -- cel --
   sis. %73 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr g'4\fE^\tuttiE g a h8 h
+    h4( a) gis8 gis a4~
+    a g4. fis8 e4
+    fis h8 h h[ a] g4~
+    g fis2 g4 %5
+    r4 a8 a a4.( g8
+    fis8) fis g2( fis4) \noBreak
+    g r r2\fermata \bar "||"
+    \tempoAgnusB R1*7 %15
+    r4 \mvTr e8\pE^\soloE f g4 g8 f
+    e([ fis)] gis a h4( c8) h
+    a2 gis4 r8 c
+    a4 b8 a gis4 a8[ g]
+    \tempoAgnusC fis4 g4. g8 fis4 \noBreak %20
+    g2 r\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*3
+    r1 r2 \mvTr c,\fE^\tuttiE %25
+    d g4( f) e( f) g2~
+    g4 c, f1 e4 d
+    c a a'1 g4 a
+    h4. a8 g2 f g~
+    g4 a h d g,1 %30
+    a2( g1) fis2
+    r g a d~
+    d4 c h( c) d a c2~
+    c h1 a2~
+    a g a( fis %35
+    g) fis e4( dis?) cis?( e)
+    fis( g a2.) g4 g2
+    fis2 h1 a2~
+    a g1 fis2~
+    fis e dis h'4( a) %40
+    gis( a) h2. e,4 a2~
+    a gis a1
+    g2 f e1
+    d c
+    d2 r g2. f8([ e)] %45
+    f2 g a4( g2) g4
+    a2(^\critnote d,4 g) g2 a4 f~
+    f g8[ f] e2 d e4 c
+    g'\breve
+    g1 f2 g %50
+    \tempoDonaB f1 e\fermata \bar "|." %51 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca --
+  _ ta mun --
+  di: Mi -- se -- re -- _
+  _ re, %5
+  mi -- se -- re --
+  re no --
+  bis.
+
+  A -- gnus De -- i, qui %16
+  tol -- lis pec -- ca -- ta
+  mun -- di, qui
+  tol -- lis pec -- ca -- _
+  _ _ ta mun -- %20
+  di:
+
+  Do -- %25
+  na, do -- na __ no --
+  bis pa -- _ _
+  _ _ _ _ _
+  _ _ _ _ _
+  _ _ _ cem, %30
+  pa -- cem,
+  do -- na, do --
+  _ na __ no -- _ _
+  _ _
+  bis pa -- %35
+  cem, do -- na __
+  no -- bis pa --
+  cem, pa -- _
+  _ _
+  _ cem, do -- %40
+  na __ no -- bis pa --
+  _ cem,
+  do -- na pa --
+  cem, do --
+  na, do -- na
+  no -- bis, do -- na
+  no -- bis pa -- _
+  _ _ _ _ _
+  _
+  cem, do -- na
+  pa -- cem.
+}

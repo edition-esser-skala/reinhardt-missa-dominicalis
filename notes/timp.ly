@@ -175,3 +175,37 @@ SanctusTimpani = {
     c2 r\fermata \bar "|." %73 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr c4.\fE-\critnote c8 c4 r
+    R1
+    r4 g c2
+    R1*2 %5
+    r2 r4 g
+    R1 \noBreak
+    g\fermata \bar "||"
+    \tempoAgnusB R1*11 %19
+    \tempoAgnusC R1 \noBreak %20
+    R\fermata \bar "||"
+    \time 2/1 \tempoDona \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*7 %28
+    r2 c\fE c g4 g
+    c2 g4 g g c c2 %30
+    c g c c4 c
+    g1 r
+    R\breve*10 %42
+    g2 r c r
+    g1 r2 c
+    g2 r r c %45
+    c g c4 g c g
+    c2 g c r
+    g4 g8 g g4 g g g8 g g4 g
+    g g8 g g4 g g1\trill
+    c2 c c c %50
+    c c4 c c1\fermata \bar "|." %51 finis
+  }
+}

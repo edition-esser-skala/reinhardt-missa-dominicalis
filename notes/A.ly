@@ -360,3 +360,143 @@ CredoAltoLyrics = \lyricmode {
   _ men, a -- men,
   a -- men. %95 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'4.\fE^\tuttiE g8 g2~
+    g f4 g
+    a \after 4 \tempoSanctusB g2 fis4 \noBreak
+    g1\fermata
+    \tempoSanctusC \mvTr e4.\pE^\soloE e8 d4 d \noBreak %5
+    c8([ d) d( e)] d2
+    h8 g'4 f!8 e8. f16 g4
+    f8 e e2 d4
+    e2 \tempoSanctusD r8 \mvTr g!\fE^\tuttiE g g
+    g g r g g g r g %10
+    g g r4 g8 c,16 c d8 d16 d
+    r4 g8 a16 a g8 g16 g g4
+    e r8 g e e a e16([ f)]
+    g4 g8 d16([ e)] f4 f8 d
+    e4 e8 g g2 %15
+    f4 e8 e g4 g8 g
+    a a g g g2 \noBreak
+    g4 r r2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoBenedictus \newSpacingSection
+      R1*5 %23
+    \mvTr h8\pE^\soloE g a g16 fis g8 g r g
+    g[ fis16 e] fis4. e16[ d] e4~ %25
+    e8[ d16 e] fis8[ a] h g16 fis e8.\trill d16
+    d4 r r2
+    R1*3 %30
+    r2 a'8 g fis g16 a
+    h8([ a)] g4 r8 g e a16 g
+    fis4( g16[ a g a] \tempoBenedictusB g4.) fis8
+    \tempoBenedictusC fis4 r r2
+    r8 fis g fis16 e fis8[ d] e16([ d) c( e)] %35
+    d8[ h'] c[ h16( a)] g8[ c h a]
+    g4 fis8. g16 g4 r
+    R1
+    r8 g a g16 fis g2~
+    g1~ %40
+    \tempoBenedictusD g4 fis8. fis16 \tempoBenedictusE g4 r
+    R1*3 \noBreak
+    R1\fermata \bar "||" %45
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      R1 \noBreak
+    \mvTr c,2\fE^\tuttiE g'4 d
+    r e8 e d([ e)] f e
+    d e f4. f8 e4~
+    e8[ f] g[ e16 f] g4 a~ %50
+    a8 g4 f16[ e] f8[ e] d4
+    e f g a~
+    a g2 fis4
+    g2 c4 g
+    r a8 a g([ a)] h g %55
+    c h a g f8[ g] a4~
+    a g4. a8 h4
+    e, a d,4. d8
+    e([ d)] c([ e)] f2~
+    f4 g e a %60
+    d, e8 e f[ e d g]~
+    g[ a] b2 a4~
+    a g a8([ g)] f([ e)]
+    d[( es?] f2) e4
+    f4. g16([ a)] b2 %65
+    a8[ g] f4. e8 d4~
+    d8[ c] h[( d)] e4 a
+    d,2 r8 g c h
+    a g f4 g2~
+    g4 f2 e8[ f] %70
+    g2 g4 \tempoOsannaB a
+    g2 a
+    g r\fermata \bar "|." %73 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san --
+  _ _
+  _ _ _
+  ctus,
+  san -- ctus, san -- ctus, %5
+  san -- _
+  ctus, san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. Ple -- ni sunt
+  coe -- li et ter -- ra, et %10
+  ter -- ra glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a tu --
+  a. O -- san -- na in ex --
+  cel -- sis, o -- san -- na, o --
+  san -- na, o -- san -- %15
+  na in ex -- cel -- sis, o --
+  san -- na in ex -- cel --
+  sis.
+
+  Be -- ne -- di -- ctus, qui ve -- nit in %24
+  no -- _ _ _ %25
+  _ _ mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- di -- ctus, qui %31
+  ve -- nit in no -- mi -- ne
+  Do -- mi --
+  ni,
+  in no -- mi -- ne Do -- _ %35
+  _ _ _
+  _ _ mi -- ni,
+
+  in no -- mi -- ne Do --
+  %40
+  _ mi -- ni.
+
+  O -- san -- na %47
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel --
+  _ _ _ %50
+  _ _ _ _
+  _ _ _ _
+  _ sis,
+  o -- san -- na
+  in ex -- cel -- sis, o -- %55
+  san -- na in ex -- cel -- _
+  _ _ _
+  sis, o -- san -- na
+  in __ ex -- cel --
+  sis, o -- san -- %60
+  na in ex -- cel --
+  _ _
+  sis, in __ ex --
+  cel -- sis,
+  in ex -- cel -- %65
+  _ _ _ _
+  sis, o -- san --
+  na, o -- san -- na
+  in ex -- cel -- _
+  _ _ %70
+  _ sis, in
+  ex -- cel --
+  sis. %73 finis
+}

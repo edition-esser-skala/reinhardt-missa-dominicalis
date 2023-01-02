@@ -134,3 +134,50 @@ CredoClarinoI = {
     \tempoCredoAmenB d2 c\fermata \bar "|." %56 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr g''2\fE^\critnote g
+    g4 c,8 c c4 c
+    c c \tempoSanctusB c2 \noBreak
+    \pao g1\fermata
+    \tempoSanctusC R1*4 %8
+    r2 \tempoSanctusD r8 g'\fE g g
+    r g g g r g g g %10
+    r g g g r2
+    g4 g8 a g2
+    e4 r r2
+    R1*2 %15
+    r4 r8 g g4 g8 g
+    f f e e d2
+    c4 r r2\fermata \bar "||"
+    \time 4/4 \tempoBenedictus \newSpacingSection
+      R1*26 \noBreak %44
+    R1\fermata \bar "||" %45
+    \time 4/4 \tempoOsanna \newSpacingSection
+      R1*4
+    e2\fE d4 r %50
+    r g a g
+    a2 g4 e
+    a g r \pa d8 d \pd
+    d4 r r2
+    R1*2 %56
+    d2 e4 d
+    r fis g g8 g
+    g4 a2 f4~
+    f e2 \pao d4 %60
+    d e f d
+    e r r2
+    R1*3 %65
+    r2 d
+    e4 d r \pao c
+    g'2 g4 a8 a
+    a8 g f4 f f8 f
+    e4 f8 e d4 c %70
+    d4 d8 d c4 \tempoOsannaB c
+    c c c8 c16 c c8 c
+    c2 r\fermata \bar "|." %73 finis
+  }
+}

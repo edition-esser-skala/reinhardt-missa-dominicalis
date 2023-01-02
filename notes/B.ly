@@ -325,3 +325,101 @@ CredoBassoLyrics = \lyricmode {
   men, a -- men, a --
   men. %95 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c'2\fE^\tuttiE g
+    e4 d8[ c] d4 e
+    f e \tempoSanctusB a2 \noBreak
+    g1\fermata
+    \tempoSanctusC r4 \mvTr c2\pE^\soloE h4 \noBreak %5
+    c( h8[ c] d4) d,
+    e h c8. d16 e4
+    a g f4. f8
+    e2 \tempoSanctusD r8 \mvTr c'\fE^\tuttiE h c
+    h c r g c g r h %10
+    c g r4 c8[ h16 a] g8[ a16 h]
+    c8[ c,] e f g2
+    c,4 r r2
+    r r4 r8 g'
+    e e a e16([ f)] g4 g8 g %15
+    d4 a'8 c h4 c8 e,
+    f f c c g'4( g,) \noBreak
+    c r r2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoBenedictus \newSpacingSection
+      R1*26 \noBreak %44
+    R1\fermata \bar "||" %45
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      R1*4 %49
+    \mvTr c2\fE^\tuttiE g'4 d %50
+    r e8 e d8[ g,] g'4~
+    g f e a8[ g]
+    fis[ d g g,] c4 d
+    g, r r2
+    R1*2 %56
+    g'2 c4 g
+    r a8 a g([ a)] h g
+    c h a g f[ g] a4~
+    a g2 f4~ %60
+    f e d g8[ f]
+    e8^\critnote c r4 f2
+    b f4 r
+    r b8 b a([ b)] c a
+    d c b a g4( c) %65
+    f, r g2
+    c4 g r a8 a
+    g([ a)] h g c h a g
+    f[ g] a4 h4. a16[ h]
+    c4 f, g c %70
+    g2 c,4 \tempoOsannaB f
+    e( c) f2
+    c r\fermata \bar "|." %73 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- _ _ _
+  _ ctus, san --
+  ctus,
+  san -- ctus, %5
+  san -- ctus,
+  san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. Ple -- ni sunt
+  coe -- li et ter -- ra, et %10
+  ter -- ra glo -- _
+  _ ri -- a tu --
+  a.
+  O --
+  san -- na in ex -- cel -- sis, o -- %15
+  san -- na, o -- san -- na, o --
+  san -- na in ex -- cel --
+  sis.
+
+  O -- san -- na %50
+  in ex -- cel -- _
+  _ _ _
+  _ _ _
+  sis,
+
+  o -- san -- na %57
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- _
+  _ _ %60
+  _ _ _
+  _ \xE sis, \x o --
+  san -- na
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- %65
+  sis, o --
+  san -- na in ex --
+  cel -- sis, o -- san -- na in ex --
+  cel -- _ _ _
+  _ sis, in ex -- %70
+  cel -- sis, in
+  ex -- cel --
+  sis. %73 finis
+}

@@ -199,3 +199,83 @@ CredoViolinoII = {
     \tempoCredoAmenB c h8.\trill h16 c2\fermata \bar "|." %95 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    e'4.\fE e8 d4. d8
+    c e g c b f g4
+    f8 e16 d \after 4 \tempoSanctusB c4. a8 c4~ \noBreak
+    c h8 a h2\fermata
+    \tempoSanctusC c8\p c c g a a g g \noBreak %5
+    g a g g g g fis fis
+    g4 r r2
+    R1
+    r2 \tempoSanctusD r16 e'\f e e d d e e
+    d8-! c-! r d e d r g %10
+    e d r16 g, h d e g d g h, g' d g
+    e e e e e e d d d d d d d d d d
+    e4 r r r8 c
+    h h e h16 c d4 a8 h
+    c4 c8 c h h d h16 c %15
+    d8 f e e d4 e8 e
+    c f e e d4.\trill d8 \noBreak
+    c4-! r r2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoBenedictus \newSpacingSection
+      r16 g'\fE fis e d c h a g g fis e d c h a \noBreak
+    g8 g' a g16( fis) g8 h c16( h) a( c) %20
+    h8 h'\p c h16( a) h8 d, e16( d) c( e)
+    d g-!\f fis-! e-! d c h a g g fis e d c h a
+    \kneeBeam g8 g'' a,, fis'' g16 g, h g d'8 d,
+    g4 r r16 g\pE fis e d c h g
+    d'4 r r2 %25
+    R1
+    r16 d''\fE cis h a g fis e d d cis h a g fis e
+    d8 d' e \once \slurDashed d16( cis) d8 fis, g16( fis) e( g)
+    fis8 fis'\p g \once \slurDashed fis16( e) fis8 d e16( d) cis( e)
+    d d\f cis h a g fis e d8 d' e, cis' %30
+    d16 d, fis d a'8 a, d4 r
+    R1
+    \after 2 \tempoBenedictusB R
+    \tempoBenedictusC r8 a'\fE h \slurDashed a16( g) a8 fis\p g fis16( e) \slurSolid
+    fis d(-. d-. d-. d-. d-. d-. d-.) d(-. d-. d-. d-. d-. d-. d-. d-.) %35
+    d(-. d-. d-. d-. d-. d-. d-. d-.) d4 r
+    r2 r16 g'\fE fis e d c h a
+    g g fis e d c h a g8 h'\p c \once \slurDashed h16( a)
+    h4 r r2
+    R1 %40
+    \tempoBenedictusD r2 \tempoBenedictusE r8 g'\fE a g16( fis)
+    g8 d e d16( c) d8 h\p c16( h) a( c)
+    h( a) g( h) a( g) fis( a) g g'\f fis e d c h a
+    g g fis e d c h a g8 g'' a, fis' \noBreak
+    g16 g, h g d'8 d, g4-! r\fermata \bar "||"
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      g2\fE c4 g \noBreak
+    r a8 a g a h g
+    c h a g f g a g16 a
+    h8 a g h c c, c'4~
+    c8 d e c d e f d %50
+    g4 g, a h
+    c8 h a d e4. e8
+    d4 d e d
+    d r r2
+    R1*3 %57
+    c2 g'4 d
+    r e8 e d e f e
+    d c16 d e8 d c h a d %60
+    h g c4. c8 h4
+    c2 r
+    R1
+    r2 c
+    f4 d r g8 g %65
+    f4. e8 d c h! d
+    e4 d r c8 c
+    h c d h e4 e
+    r c g' d
+    r f8 e d4 e %70
+    d2 e4 \tempoOsannaB f
+    c e f2
+    e r\fermata \bar "|." %73 finis
+  }
+}

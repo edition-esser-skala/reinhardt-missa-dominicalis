@@ -126,6 +126,52 @@ CredoTimpani = {
     r2 r4 r8 g
     c4 r r r8 g
     c4 c g c
-    \tempoCredoAmenB g2 c\fermata \bar "|." %595 finis
+    \tempoCredoAmenB g2 c\fermata \bar "|." %95 finis
+  }
+}
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c4\fE-\critnote c8 c g4 g8 g
+    c4 c8 c c4 c
+    c c \tempoSanctusB c8 c16 c c8 c \noBreak
+    g1\trill\fermata
+    \tempoSanctusC R1*4 %8
+    r2 \tempoSanctusD r8 c\fE g c
+    r c c g r g c g %10
+    r g c g r2
+    c4 c8 c g2
+    c4 r r2
+    R1*2 %15
+    r4 r8 c g4 c8 c
+    c c c c g2 \noBreak
+    c4 r r2\fermata \bar "||"
+    \time 4/4 \tempoBenedictus \newSpacingSection
+      R1*26 \noBreak %44
+    R1\fermata \bar "||" %45
+    \time 4/4 \tempoOsanna \newSpacingSection
+      R1*4
+    c4\fE c8 c g4 r %50
+    R1*2
+    c4 g r2
+    g4 r r2
+    R1*2 %56
+    g4 g8 g c4 g
+    r c g g8 g
+    c4 r r2
+    R1 %60
+    g4 c c g8 g
+    c4 r r2
+    R1*3 %65
+    r2 g4 g8 g
+    c4 g r c
+    g g8 g c4 r
+    r2 g4 g8 g
+    c4 c g c %70
+    g g8 g c4 \tempoOsannaB c
+    c c c8 c16 c c8 c
+    c2 r\fermata \bar "|." %73 finis
   }
 }

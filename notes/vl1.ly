@@ -199,3 +199,83 @@ CredoViolinoI = {
     \tempoCredoAmenB g4. g8 g2\fermata \bar "|." %95 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    g''4.\fE g8 g d h g
+    c e g c b f b4
+    a \after 4 \tempoSanctusB g2 fis8. fis16 \noBreak
+    g1\fermata
+    \tempoSanctusC e8\p e e e d d d d \noBreak %5
+    c d d e a, a a a
+    g4 r r2
+    R1
+    r2 \tempoSanctusD r16 g'\f g g g g g g
+    g8-! g-! r h c h r d %10
+    c h r16 g, h d e g d g h, g' d g
+    e g g g c c c c c c c c h h h h
+    c4 r r r8 c,
+    h h e h16 c d4 a8 h
+    c4 c8 e d d d e %15
+    f4 e8 e^\critnote g g g c
+    a a g16 c e, c d h g d' g d g f \noBreak
+    e4-! r r2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoBenedictus \newSpacingSection
+      r16 g\fE fis e d c h a g g fis e d c h a \noBreak
+    g8 h' c h16( a) h8 g' a16( g) fis( a) %20
+    g8 d\p e d16( c) d8 h c16( h) a( c)
+    h g'\f-! fis-! e-! d c h a g g fis e d c h a
+    \kneeBeam g8 g'' a,, fis'' g16 g, h g d'8 d,
+    g4 r r16 g\pE fis e d c h g
+    d'4 r r2 %25
+    R1
+    r16 d''\fE cis h a g fis e d d cis h a g fis e
+    d8 fis' g \once \slurDashed fis16( e) fis8 d e16( d) cis( e)
+    d8 a\p h \once \slurDashed a16( g) a8 fis g16( fis) e( g)
+    fis d'\f cis h a g fis e d8 d' e, cis' %30
+    d16 d, fis d a'8 a, d4 r
+    R1
+    \after 2 \tempoBenedictusB R
+    \tempoBenedictusC r8 fis'\fE g fis16 e fis d,\p(-. d-. d-. d-. d-. d-. d-.)
+    d(-. d-. d-. d-. d-. d-. d-. d-.) d(-. d-. d-. d-. d-. d-. d-. d-.) %35
+    d(-. d-. d-. d-. d-. d-. d-. d-.) d4 r
+    r2 r16 g'\fE fis e d c h a
+    g g fis e d c h a g8 h'\p c \once \slurDashed h16( a)
+    h4 r r2
+    R1 %40
+    \tempoBenedictusD r2 \tempoBenedictusE r8 h\fE c h16( a)
+    h8 h' c h16( a) h8 d,\p e16( d) c( e)
+    d( c) h( d) c( h) a( c) h g'\f fis e d c h a
+    g g fis e d c h a g8 g'' a, fis' \noBreak
+    g16 g, h g d'8 d, g4-! r\fermata \bar "||" %45
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      R1*3
+    g2\fE c4 g
+    r c8 c h c d c %50
+    h4 c4. c8 h h
+    a4 d2 c4~
+    c8 h h a16 g a2
+    h4 r r2
+    c2 g'4 d %55
+    r e8 e d e f e
+    d g, g' f e4 d~
+    d c h8 a g h
+    c g c4. h8 a c
+    h2 a %60
+    g r
+    g c4 f,
+    r d'8 d c b a c
+    f es d b c b16 a g8 c
+    d e f2 e8 e %65
+    f e d c h! a g4
+    r2 c
+    g'4 d r e8 e
+    d e f e d g, g' f
+    e4 d8 c h4 c~ %70
+    c h c \tempoOsannaB c8 c
+    c1
+    c2 r\fermata \bar "|." %73 finis
+  }
+}

@@ -346,20 +346,140 @@ CredoSopranoLyrics = \lyricmode {
   _ men. %95 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr e'2\fE^\tuttiE d
+    c b
+    a8[ h] \after 4 \tempoSanctusB c4. a8 c4~ \noBreak
+    c h8[ a] h2\fermata
+    \tempoSanctusC \mvTr g4.\pE^\solo c8 f,16([ e d e] f[ a g f] \noBreak %5
+    e8) fis g2( fis4)
+    g2 r
+    R1
+    r2 \tempoSanctusD r8 \mvTr e'\fE^\tuttiE d e
+    d e r d e d r d %10
+    e d r4 e8 e16 e g8 g16 g
+    e4 e8 d d2
+    c4 r r r8 c
+    h h e h16([ c)] d4 a8 h
+    c4 c8 e d d d d %15
+    d4 c8 e d4 e8 e
+    c c c c c4( h) \noBreak
+    c r r2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoBenedictus \newSpacingSection
+      R1*5 %23
+    \mvTr d8\pE^\soloE h c h16 a h8 h r h
+    a4~ a16[ d cis d] g,4~ g16[ e' d e] %25
+    fis,8[ a] d4. e16 d cis8.\trill d16
+    d4 r r2
+    R1*4 %31
+    d8 c! h c16 d e8[( d)] c h
+    a d16 c h([ c h c] \tempoBenedictusB h4.) a8
+    \tempoBenedictusC a4 r r8 a h a16 g
+    a8[ d] e[ d16( cis)] d8[ h] c16([ h) a( c)] %35
+    h8[ g] a[ g16( fis)] g8[ e' d c]
+    h4 a8. g16 g4 r
+    r2 r8 d' e d16 c
+    d8[ h] c16([ h) a( c)] h2
+    a1~ %40
+    \tempoBenedictusD a4. a8 \tempoBenedictusE g4 r
+    R1*3 \noBreak
+    R1\fermata \bar "||" %45
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      R1*3
+    \mvTr g2\fE^\tuttiE c4 g
+    r c8 c h([ c)] d c %50
+    h4( c4.) c8 h h
+    a4 d2 c4~
+    c8[ h] h[ a16 g] a2
+    h4 r r2
+    c2 g'4 d %55
+    r e8 e d([ e)] f e
+    d g, g' f e4 d~
+    d c h8[ a g h]
+    c[ g] c4. h8[ a c]
+    h2 a %60
+    g r
+    g c4 f,
+    r d'8 d c([ b)] a c
+    f es d b c[ b16 a] g8[ c]
+    d[ e] f2 e8 e %65
+    f e d c h!([ a)] g4
+    r2 c
+    g'4 d r e8 e
+    d([ e)] f e d g, g' f
+    e4 d8[ c] h4 c~ %70
+    c h c \tempoOsannaB c8 c
+    c1
+    c2 r\fermata \bar "|." %73 finis
+  }
+}
 
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- _
+  _ _ _ _
+  _ ctus,
+  san -- ctus, san -- %5
+  ctus, san --
+  ctus.
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  Ple -- ni sunt
+  coe -- li et ter -- ra, et %10
+  ter -- ra glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu --
+  a. O --
+  san -- na in ex -- cel -- sis, o --
+  san -- na, o -- san -- na in ex -- %15
+  cel -- sis, o -- san -- na, o --
+  san -- na in ex -- cel --
+  sis.
 
+  Be -- ne -- di -- ctus, qui ve -- nit in %24
+  no -- _ %25
+  _ _ mi -- ne Do -- mi --
+  ni.
 
-% ## Benedictus
+  Be -- ne -- di -- ctus, qui ve -- nit in %32
+  no -- mi -- ne Do -- mi --
+  ni, in no -- mi -- ne
+  Do -- _ _ _ %35
+  _ _ _
+  _ _ mi -- ni,
+  in no -- mi -- ne
+  Do -- _ _
+  _ %40
+  mi -- ni.
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+  O -- san -- na %49
+  in ex -- cel -- sis, o -- %50
+  san -- na in ex --
+  cel -- _ _
+  _ _
+  sis,
+  o -- san -- na %55
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- _
+  _ _
+  _ _ _
+  _ _ %60
+  sis,
+  o -- san -- na
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- _
+  _ _ sis, o -- %65
+  san -- na in ex -- cel -- sis,
+  o --
+  san -- na in ex --
+  cel -- sis, o -- san -- na in ex --
+  cel -- _ _ _ %70
+  _ sis, in ex --
+  cel --
+  sis. %73 finis
+}
 
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

@@ -70,7 +70,7 @@ GloriaBasso = {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     R1
-    r2 \mvTr c'8\fE^\tuttiE c16 c h8 g
+    r2 \mvDl c'8\fE^\tuttiE c16 c h8 g
     c c c g e c g4
     c f8 e f c g' fis
     g8. d16 d4 e8 fis g g, %5
@@ -168,7 +168,7 @@ CredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
-    r4 \mvTr c'\fE^\tuttiE c, r
+    r4 \mvDl c'\fE^\tuttiE c, r
     r8 c' c c h h c g
     a2 g4 r
     R1*6 %9
@@ -330,7 +330,7 @@ SanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    \mvTr c'2\fE^\tuttiE g
+    \mvDl c'2\fE^\tuttiE g
     e4 d8[ c] d4 e
     f e \tempoSanctusB a2 \noBreak
     g1\fermata
@@ -428,7 +428,7 @@ AgnusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoAgnus
-    \mvTr c'4.\fE^\tuttiE c8 fis,4 gis8 gis
+    \mvDl c'4.\fE^\tuttiE c8 fis,4 gis8 gis
     a2 e4 r8 a
     fis4 g! c,2
     h4 h'8 a g([ a16 h] c8[ h]

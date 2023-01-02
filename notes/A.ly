@@ -88,7 +88,7 @@ GloriaAlto = {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     R1
-    r2 \mvTr e8\fE^\tuttiE d16 c g'8 g
+    r2 \mvDl e8\fE^\tuttiE d16 c g'8 g
     e c g' g g g g4
     e f8 g f g g a
     g8. g16 fis4 g8 a g g %5
@@ -192,7 +192,7 @@ CredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
-    r4 \mvTr g'\fE^\tuttiE g r
+    r4 \mvDl g'\fE^\tuttiE g r
     r8 g g g g g g g
     g4( fis) g r
     R1*2 %5
@@ -365,7 +365,7 @@ SanctusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    \mvTr g'4.\fE^\tuttiE g8 g2~
+    \mvDl g'4.\fE^\tuttiE g8 g2~
     g f4 g
     a \after 4 \tempoSanctusB g2 fis4 \noBreak
     g1\fermata
@@ -505,7 +505,7 @@ AgnusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoAgnus
-    \mvTr g'4\fE^\tuttiE g a h8 h
+    \mvDl g'4\fE^\tuttiE g a h8 h
     h4( a) gis8 gis a4~
     a g4. fis8 e4
     fis h8 h h[ a] g4~

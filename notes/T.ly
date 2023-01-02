@@ -70,7 +70,7 @@ GloriaTenore = {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     R1
-    r2 \mvTr c8\fE^\tuttiE c16 c d8 h
+    r2 \mvDl c8\fE^\tuttiE c16 c d8 h
     c c c h e e d4
     c a8 g a c b a
     b8. b16 a4 e'8 d d d %5
@@ -160,7 +160,7 @@ CredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
-    r4 \mvTr c\fE^\tuttiE c r
+    r4 \mvDl c\fE^\tuttiE c r
     r8 c c c d d c h
     c4( a) d r
     \mvTr c\pE^\soloE d r8 e f e
@@ -343,7 +343,7 @@ SanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    \mvTr c2.\fE^\tuttiE h4
+    \mvDl c2.\fE^\tuttiE h4
     c d8[ e] f4 c~
     c g \tempoSanctusB c( a \noBreak
     d2) d\fermata
@@ -448,7 +448,7 @@ AgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoAgnus
-    \mvTr c4.\fE^\tuttiE c8 c4 h8 e
+    \mvDl c4.\fE^\tuttiE c8 c4 h8 e
     e2 e4 r8 e
     d4 d e2
     fis4 fis8 fis g4 e

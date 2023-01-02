@@ -90,7 +90,7 @@ GloriaSoprano = {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     R1
-    r2 \mvTr e'8\fE^\tuttiE e16 e d8 d
+    r2 \mvDl e'8\fE^\tuttiE e16 e d8 d
     e e e d c c c([ h)]
     c4 c8 c c c d d
     d8. d16 d4 c8 c h! h %5
@@ -192,7 +192,7 @@ CredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
-    r4 \mvTr e'4\fE^\tuttiE e r
+    r4 \mvDl e'4\fE^\tuttiE e r
     r8 e g e d d e d
     c2 h4 r
     R1*3 %6
@@ -350,7 +350,7 @@ SanctusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    \mvTr e'2\fE^\tuttiE d
+    \mvDl e'2\fE^\tuttiE d
     c b
     a8[ h] \after 4 \tempoSanctusB c4. a8 c4~ \noBreak
     c h8[ a] h2\fermata
@@ -484,7 +484,7 @@ AgnusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoAgnus
-    \mvTr e'4.\fE^\tuttiE e8 d4 d8 d
+    \mvDl e'4.\fE^\tuttiE e8 d4 d8 d
     c2 h8 h c4~
     c h h( a)
     h dis8 dis e2~
